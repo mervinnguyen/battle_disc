@@ -12,7 +12,6 @@ Welcome to Ping Pong Game! Immerse yourself in the nostalgic joy of Ping Pong wi
 - Led a team of 2 engineers to develop an embedded system game with Arduino Uno using PlatformIO and Altium, end goal of deploying 500+ systems for after-school programs.<br />
 - Programmed in C++ with Adafruit libraries, introducing specific in-game movements/motion controls of the game.<br />
 - Designed a board schematic, incorporating I2C communication to display data on an OLED display.
-- MAANG
 
 
 <h2>Languages and Utilities Used</h2>
