@@ -1,39 +1,45 @@
-<h1>Battle Disc</h1>
+# Battle Disc
 
- ### [YouTube Demonstration]()
+> Embedded Ping Pong Game on an AtMega328P — I2C OLED display, motion controls, designed for scale.
 
-<h2>Description</h2>
+---
 
-Welcome to Ping Pong Game! Immerse yourself in the nostalgic joy of Ping Pong with this hands-on experience using C++. This project seamlessly blends the digital and physical worlds, offering real-time interaction through an I2C OLED display. Crafted with Arduino's versatility, the game is not only entertaining but also serves as a fantastic learning opportunity for Arduino enthusiasts. Dive into the code to explore the standards of the game logic, and feel free to customize settings to match your preferences. Whether you're a C++ Developer or a Ping Pong Enthusiast, this project invites you to enjoy the thrill of a classic game in a new, Arduino-powered dimension. Let the paddles and LED lights dance as you engage in Arduino Ping Pong fun – the perfect fusion of gaming and DIY innovation! 🏓🎮
+## Overview
 
-<br />
+Battle Disc is a two-player Pong implementation built for a custom hardware platform. Physical motion controls map to in-game paddle movement, rendered in real time on an I2C OLED display. The project was developed with a production target of 500+ units for deployment in after-school STEM programs.
 
-<h2>Key Achievements</h2>
-- Led a team of 2 engineers to develop an embedded system game with Arduino Uno using PlatformIO and Altium, end goal of deploying 500+ systems for after-school programs.<br />
-- Programmed in C++ with Adafruit libraries, introducing specific in-game movements/motion controls of the game.<br />
-- Designed a board schematic, incorporating I2C communication to display data on an OLED display.
+---
 
+## Key Achievements
 
-<h2>Languages and Utilities Used</h2>
+- **Led a 2-person engineering team** through full-cycle development — from schematic design to firmware deployment via PlatformIO.
+- **Designed custom PCB** with I2C communication bus driving a 128×64 OLED display for real-time game rendering.
+- **Implemented motion control input** in C++ using Adafruit libraries, translating physical gestures into paddle actuation.
+- **Scoped for production deployment** across 500+ embedded systems targeting K–12 after-school programs.
 
-- <b>C++</b> 
-- <b>Arduino</b>
+---
 
-<h2>Environments Used </h2>
+## Hardware
 
-- <b>Visual Studio Code</b>
+| Component | Role |
+|---|---|
+| Arduino Uno | Main MCU |
+| 128×64 OLED Display | I2C — game rendering |
+| Motion/Input Controllers | Player paddle input |
+| Breadboard Design | Integrated schematic, routing, and component layout |
 
-<h2>Program walk-through:</h2>
+---
 
+## Software
 
-<p align="center">
-Loading Screen: <br/>
-<img src="https://i.imgur.com/I8a9Z8k.jpg" height="50%" width="50%" />
-<br />
-<br />
+| Layer | Detail |
+|---|---|
+| Language | C++ |
+| Framework | Arduino + PlatformIO |
+| Libraries | Adafruit GFX, Adafruit SSD1306 |
+| IDE | Visual Studio Code |
+| PCB Design | Altium Designer |
 
-<p align="center">
-In Game: <br/>
-<img src="https://i.imgur.com/4Y7TW9o.jpg" height="30%" width="30%" />
-<br />
-<br />
+---
+
+## Architecture
